@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Datos Físicos</title>
+    <link rel="stylesheet" href="css/stylesusuario.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo_mindset_blanco.png" alt="Logo de la App" style="height: 50px; vertical-align: middle;">
+        <h1 style="display: inline-block; margin-left: 10px;"></h1>
+    </header>
+    <main>
+        <section>
+            <h2>Formulario de Datos</h2>
+            <form>
+                <div class="GroupsForms">
+                    <label><p>¿Cúal es tu nombre?</p></label>
+                    <input type="text" name="NameLabel" id="Name" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="GroupsForms">
+                    <label><p>¿Qué edad tienes?</p></label>
+                    <input type="text" name="AgeLabel" id="Age" placeholder="Ingresa tu edad">
+                </div>
+                <div class="GroupsForms">
+                    <label><p>Ingresa tu altura (en centímetros)</p></label>
+                    <input type="text" name="HeightLabel" id="Height" placeholder="Ingresa tu altura (cm)">
+                </div>
+                <div class="GroupsForms">
+                    <label><p>Ingresa tu peso (en kilogramos)</p></label>
+                    <input type="text" name="WeightLabel" id="Weight" placeholder="Ingresa tu peso (kg)">
+                </div>
+                <div class="GroupsForms">
+                    <p>¿Cúal es tu ocupación?</p>
+                    <label>
+                        <select name="Occupation" id="Occupation">
+                            <option disabled selected value>Selecciona tu ocupación</option>
+                            <option value="Student">Estudiante</option>
+                            <option value="Employee">Empleado</option>
+                            <option value="Entrepreneur">Independiente/emprendedor</option>
+                            <option value="Athlete">Deportista</option>
+                            <option value="Retired">Jubilado</option>
+                            <option value="Unemployed">Desempleado</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="GroupsForms">
+                    <p>¿Cúal es tu objetivo principal?</p>
+                    <label>
+                        <select name="Goal" id="Goal">
+                            <option disabled selected value>Selecciona tu objetivo</option>
+                            <option value="LoseWeight">Perder peso</option>
+                            <option value="WinMuscles">Ganar masa muscular</option>
+                            <option value="BeHealthy">Mantenerse saludable</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="GroupsForms">
+                    <button type="button" onclick="location.href='error404.html';">Enviar</button>
+                </div>
+                <div class="GroupsForms">
+                    <button type="button" class="btn-space" onclick="location.href='index.html';">Ir a Inicio</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 - MINDSET</p>
+    </footer>
+</body>
+</html>
+
+
+//l boton de interfaz de usuario "tu seguimiento va conectado con "indexinicio.html"

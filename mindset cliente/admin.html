@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="css/stylesadmin.css">  
+</head>
+<body>
+    <div class="main-container">
+        <div class="logo-container">
+            <img src="../img/LOGO_MINDSET.jpg" alt="Mindset Logo">
+        </div>
+
+        <div class="form-wrapper">
+            <h2>Panel de Administrador</h2>
+            <form id="adminForm" class="form" action="dashboard.html" method="POST">
+                <label for="adminUsername">Usuario Administrador:</label>
+                <input type="text" id="adminUsername" name="adminUsername" required>
+                
+                <label for="adminPassword">Contraseña:</label>
+                <input type="password" id="adminPassword" name="adminPassword" required>
+                
+                <button type="submit">Acceder</button> 
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2025 Bryan Muñoz
+    </div>
+</body>
+</html>

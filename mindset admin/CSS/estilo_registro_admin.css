@@ -1,0 +1,121 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fondo_mindset.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen al fondo */
+    color: #fff; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Tamaño del contenedor */
+    text-align: center;
+    gap: 20px; /* Espacio entre los elementos internos */
+}
+
+/* Contenedor del logo */
+.logo-container {
+    background-color: #000; /* Fondo negro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    width: 100%;
+    max-width: 400px; /* Tamaño del logo */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contenedor del formulario */
+.form-wrapper {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 30px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: 100%;
+    max-width: 400px; /* Tamaño del formulario */
+    text-align: center;
+}
+
+.form-wrapper h2 {
+    color: #007acc; /* Azul para el título */
+    margin-bottom: 20px;
+}
+
+.form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.form input {
+    width: 100%;
+    padding: 12px; /* Espaciado interno */
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form input:focus {
+    border-color: #007acc; /* Azul al enfocar */
+    outline: none;
+}
+
+/* Botón */
+button {
+    background-color: #007acc; /* Azul */
+    color: #fff; /* Texto blanco */
+    border: none;
+    padding: 12px 20px; /* Espaciado interno */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #005f99; /* Azul más oscuro al pasar el cursor */
+}
+
+/* Enlaces */
+a {
+    color: #007acc;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px; /* Espacio entre el enlace y el botón */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    margin-top: 20px; /* Espacio encima del footer */
+    color: #000000;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
